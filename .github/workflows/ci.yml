@@ -5,7 +5,7 @@ on:
 # moindre privilège pour le jeton
 permissions: {contents: read}
 jobs:
-  tests:
+  MICSI-YG:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
