@@ -2,10 +2,9 @@ name: ci
 on:
   push: {branches: [main]}
   pull_request:
-# moindre privilège pour le jeton
 permissions: {contents: read}
 jobs:
-  MICSI-YG:
+  MISCI-YG:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
